@@ -35,7 +35,7 @@ function App() {
         </div>
         <div class="col-11">
           <div class="tab-content" id="v-pills-tabContent">
-            <div class="tab-pane fade show" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
               <div className="row">
                 <div className="col-md-2">
                   <div className="color" style={{backgroundImage:`url("img/a.jpg")`}} onClick={e => changeSrc('a')}><span className="shadow" style={{backgroundColor:"#695b41"}}></span></div>
